@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/css/reset.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <style>
+        /* desktop */
+        @media only screen and (min-width: 960px) {
+            .container {
+                width: 960px;
+            }
+            .header-left {
+                padding: 39px 50px 70px !important;
+            }
+            .lets-you-row{
+                padding: 0 50px;
+            }
+            .advance-table {
+                padding: 15px 50px 70px 50px !important;
+                background: white;
+            }
+            .one-solution-table{
+                text-align: center;
+            }
+            .one-solution-table img{
+                max-width: 611px;
+            }
+            .join-together-table .left-column{
+                padding: 20px 50px !important;
+            }
+            .join-together-table .middle-column{
+                padding: 20px 50px !important;
+            }
+            .join-together-table .right-column{
+                padding: 20px 50px !important;
+            }
+            .detail-table {
+                padding: 50px 50px 25px !important;
+            }
+        }
+        /* midsizes */
+        @media only screen and (max-width: 960px) {
+            .container {
+                width: 600px;
+            }
+            .header-left {
+                padding: 15px 15px 73px !important;
+            }
+        }
+        /* mobile */
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 100%;
+            }
+            .header-left {
+                width: 100%;
+            }
+            .header-right {
+                width: 100%;
+            }
+            .lets-you-row .left-column{
+                width: 50%;
+            }
+            .lets-you-row .middle-column{
+                width: 50%;
+            }
+            .lets-you-row .right-column{
+                width: 100%;
+            }
+            .advance-table .image-head{
+                width: 100%;
+            }
+            .advance-table .left-column{
+                width: 100%;
+            }
+            .advance-table .right-column{
+                width: 100%;
+            }
+            .advance-table .right-column .right-store {
+                text-align: center;
+            }
+            .advance-table .left-column .left-store {
+                text-align: center;
+            }
+            .join-together-table .left-column{
+                width: 100%;
+                padding: 20px 50px !important;
+            }
+            .join-together-table .middle-column{
+                width: 100%;
+                padding: 20px 50px !important;
+            }
+            .join-together-table .right-column{
+                width: 100%;
+                padding: 20px 50px !important;
+            }
+            .detail-table .one-row-table .left-column{
+                width: 100%;
+            }
+            .detail-table .one-row-table .right-column{
+                width: 100%;
+            }
+        }
+    </style>
+    <title>HTML Email</title>
+</head>
+<body style="background: black;">
+    <!-- Start of HTML email -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+        <tr>
+            <td>
+                <!-- Start of container -->
+                <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0">
+                    <!-- Start of Header -->
+                    <tr>
+                        <td style="background: white;">
+                            <!-- Start of Left Column -->
+                            <table class="header-left" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="background: rgb(101, 255, 253); background: -moz-linear-gradient(-45deg, rgba(101,255,253,1) 1%, rgba(34,150,238,1) 100%); background: -webkit-linear-gradient(-45deg, rgba(101,255,253,1) 1%, rgba(34,150,238,1) 100%); background: linear-gradient(-45deg, rgba(101,255,253,1) 1%, rgba(34,150,238,1) 100%); padding: 15px 15px 50px 15px;">
+                                <tr>
+                                    <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: white;">
+                                        <img src="/images/logo.png" alt="picture of company logo">
+                                        <h2 style="padding: 25px 0 10px; font-size: 30px; margin: 0; font-weight: 300; line-height: 1;">Get ready for</h2>
+                                        <h1 style="font-size: 80px; margin: 0; line-height: 1; padding: 0 0 10px;">Hero</h1>
+                                        <p style="font-style: italic; font-size: 14px; margin: 0; line-height: 1.5; padding: 20px 0 50px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi exercitationem harum quod in rem dolor voluptate! Blanditiis, ratione. Officia, similique.</p>
+                                        <a href="#" class="ghost-btn" style="font-size: 12px; border-radius: 3px; border: 2px solid white; text-decoration: none; color: white; padding: 6px 15px; text-transform: uppercase;">Learn More</a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- End of Left Column -->
+                            <!-- Start of Right Column -->
+                            <table class="header-right" width="50%" align="right" cellspacing="0" cellpadding="0" border="0" style="padding: 20px; background: white;">
+                                <tr>
+                                    <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7d7d7d;">
+                                        <table class="menu-table" width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
+                                            <tr >
+                                                <td align="center">
+                                                    <a href="#" style="font-size: 14px; font-weight: 600; text-decoration: none; color: #7d7d7d;">About</a>
+                                                </td>
+                                            
+                                                <td align="center">
+                                                    <a href="#" style="font-size: 14px; font-weight: 600; text-decoration: none; color: #7d7d7d;">Careers</a>
+                                                </td>
+                                            
+                                                <td align="center">
+                                                    <a href="#" style="font-size: 14px; font-weight: 600; text-decoration: none; color: #7d7d7d;">Contact</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" valign="bottom" style="padding-top: 16px">
+                                        <img src="/images/smartwatch.png" alt="picture of smartwatch" style="position: relative; bottom: -24px;">
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- End of Right Column -->
+                        </td>
+                    </tr>
+                    <!-- End of Header -->
+                    <!-- Start of lets you row -->
+                    <tr>
+                        <td class="lets-you-row" style="background: #fafafa;">
+                            <h3 style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 300; text-transform: uppercase; font-size: 24px;" align="center">Hero Let's you...</h3>
+                            <!-- start of left-column -->
+                            <table class="left-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 50px 15px;">
+                                <tr>
+                                    <td>
+                                        <table class="title-icon" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0;">
+                                            <tr>
+                                                <td><img src="/images/bell_icon.png"> </td>
+                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">Notify</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque suscipit ullam placeat, quam inventore mollitia?</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #2792ec; text-decoration: none; font-weight: 600; font-size: 14px;">Learn more</a> 
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- End of left-column -->
+                            <!-- start of middle-column -->
+                            <table class="middle-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 50px 15px;">
+                                <tr>
+                                    <td>
+                                        <table class="title-icon" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0;">
+                                            <tr>
+                                                <td><img src="/images/share_icon.png"> </td>
+                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">Share</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px;"">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque suscipit ullam placeat, quam inventore mollitia?</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #2792ec; text-decoration: none; font-weight: 600; font-size: 14px;">Learn more</a> 
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- End of middle column -->
+                            <!-- Start of right-column -->
+                            <table class="right-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 50px 15px;">
+                                <tr>
+                                    <td>
+                                        <table class="title-icon" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0;">
+                                            <tr>
+                                                <td><img src="/images/wifi_icon.png"> </td>
+                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">Connect</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque suscipit ullam placeat, quam inventore mollitia?</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #2792ec; text-decoration: none; font-weight: 600; font-size: 14px;">Learn more</a> 
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- End of right-column -->
+                        </td>
+                    </tr>
+                    <!-- End of lets you row -->
+                    <!-- Start of advance row -->
+                    <tr>
+                        <td>
+                            <table class="advanced-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 0 15px; background: white;">
+                                <tr>
+                                    <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 30px 0 0 15px; font-weight: 300; text-transform: uppercase; font-size: 24px;" align="center">
+                                        <img src="/images/image_head.jpg" class="image_head" >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h3 style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 30px 0 5px 0px; font-weight: 300; margin: 0; text-transform: capitalize; font-size: 24px;" align="center">Worlds <span style="font-weight: 400;">Most Advanced App</span><br> with High-Tech Solutions</h3>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 0 15px; background: white;">
+                                            <tr>
+                                                <td>
+                                                    <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px; padding: 0 0 30px;">
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae molestias qui at exercitationem ipsam totam.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" class="left-store">
+                                                    <img src="/images/appstore.png">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="right-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 0px 15px; background: white;">
+                                            <tr>
+                                                <td>
+                                                    <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px; padding: 0 0 30px">
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae molestias qui at exercitationem ipsam totam.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="right-store">
+                                                    <img src="/images/playstore.png">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- End of advance row -->
+                    <!-- Start of one solution row -->
+                    <tr>
+                        <td>
+                            <table class="one-solution-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 0 15px; background: #141414; padding: 50px 0;">
+                                <tr>
+                                    <td>
+                                        <img src="/images/one_app.jpg" style="width: 100%">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- End of One solution row -->
+                    <!-- Start of join together row -->
+                    <tr>
+                        <td>
+                            <table class="join-together-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 25px 0 75px; background: white;">
+                                <tr>
+                                    <td>
+                                        <h3 style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 300; text-transform: capitalize; font-size: 24px;" align="center">
+                                            Features <span style="font-weight: 600;">All Joined Together</span> in One App
+                                        </h3>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <!-- start of left column -->
+                                        <table class="left-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 0; background: white;">
+                                            <tr>
+                                                <td align="center">
+                                                    <img src="/images/watch_screen-37.png" alt="image of a watch screen">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <h5 style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">
+                                                        SYNC
+                                                    </h5>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px; margin: 0; padding: 0 0 15px 0;">Computer manufacturer Lenovo is getting flak.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <a href="#" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #2792ec; text-decoration: none; font-weight: 600; font-size: 14px;">
+                                                        Learn More
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- End of left column -->
+                                        <!-- start of middle column -->
+                                        <table class="middle-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 0; background: white;">
+                                            <tr>
+                                                <td align="center">
+                                                    <img src="/images/watch_screen-37.png" alt="image of a watch screen">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <h5 style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">
+                                                        SHARE
+                                                    </h5>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px; margin: 0; padding: 0 0 15px 0;">Computer manufacturer Lenovo is getting flak.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <a href="#" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #2792ec; text-decoration: none; font-weight: 600; font-size: 14px;">
+                                                        Learn More
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- End of middle column -->
+                                        <!-- start of right column -->
+                                        <table class="right-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 0; background: white;">
+                                            <tr>
+                                                <td align="center">
+                                                    <img src="/images/watch_screen-37.png" alt="image of a watch screen">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <h5 style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">
+                                                        STATS
+                                                    </h5>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px; margin: 0; padding: 0 0 15px 0;">Computer manufacturer Lenovo is getting flak.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <a href="#" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #2792ec; text-decoration: none; font-weight: 600; font-size: 14px;">
+                                                        Learn More
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- End of right column -->
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- End of join together row -->
+                    <!-- Start of detail row -->
+                    <tr>
+                        <td>
+                            <table class="detail-table" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 50px 0; background: #fafafa;">
+                                <!-- Start of one row -->
+                            <tr>
+                                <td>
+                                    <table class="one-row-table" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 0;">
+                                        <tr>
+                                            <td>
+                                                <!-- Start of column table -->
+                                                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 15px 20px;">
+                                                    <tr>
+                                                        <td>
+                                                            <!-- Start of icon table -->
+                                                            <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" >
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    <img src="/images/phone_icon.png">
+                                                                </td>
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    Responsive Layout
+                                                                </td>
+                                                            </table>
+                                                            <!-- End of icon table -->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px;">
+                                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- End of column table -->
+                                                
+                                                <!-- Start of column table -->
+                                                <table class="right-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 15px 20px;">
+                                                    <tr>
+                                                        <td>
+                                                            <!-- Start of icon table -->
+                                                            <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" >
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    <img src="/images/retina.png">
+                                                                </td>
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    Responsive Ready
+                                                                </td>
+                                                            </table>
+                                                            <!-- End of icon table -->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px;">
+                                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- End of column table -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                                <!-- End of one row -->
+                                <!-- Start of two row -->
+                            <tr>
+                                <td>
+                                    <table class="one-row-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0;">
+                                        <tr>
+                                            <td>
+                                                <!-- Start of column table -->
+                                                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 15px 20px;">
+                                                    <tr>
+                                                        <td>
+                                                            <!-- Start of icon table -->
+                                                            <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" >
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    <img src="/images/check_icon.png">
+                                                                </td>
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    Various Skins
+                                                                </td>
+                                                            </table>
+                                                            <!-- End of icon table -->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px;">
+                                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- End of column table -->
+                                                
+                                                <!-- Start of column table -->
+                                                <table class="right-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 15px 20px;">
+                                                    <tr>
+                                                        <td>
+                                                            <!-- Start of icon table -->
+                                                            <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" >
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    <img src="/images/settings_icon.png">
+                                                                </td>
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    Great Performance
+                                                                </td>
+                                                            </table>
+                                                            <!-- End of icon table -->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px;">
+                                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- End of column table -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                                <!-- End of two row -->
+                                <!-- Start of third row -->
+                            <tr>
+                                <td>
+                                    <table class="one-row-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0;">
+                                        <tr>
+                                            <td>
+                                                <!-- Start of column table -->
+                                                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 15px 20px;">
+                                                    <tr>
+                                                        <td>
+                                                            <!-- Start of icon table -->
+                                                            <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" >
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    <img src="/images/menu_icon.png">
+                                                                </td>
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    User Friendly Menus
+                                                                </td>
+                                                            </table>
+                                                            <!-- End of icon table -->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px;">
+                                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- End of column table -->
+                                                
+                                                <!-- Start of column table -->
+                                                <table class="right-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 15px 20px;">
+                                                    <tr>
+                                                        <td>
+                                                            <!-- Start of icon table -->
+                                                            <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" >
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    <img src="/images/share_icon.png">
+                                                                </td>
+                                                                <td style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                                                    Social Share
+                                                                </td>
+                                                            </table>
+                                                            <!-- End of icon table -->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px;">
+                                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- End of column table -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                                <!-- End of third row -->
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- End of detail row -->
+                    <!-- Start of interest row -->
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <!-- End of interest row -->
+                        <tr>
+                            <td> 
+                                <table class="interest-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="background: rgb(101, 255, 253); background: -moz-linear-gradient(-45deg, rgba(101,255,253,1) 1%, rgba(34,150,238,1) 100%); background: -webkit-linear-gradient(-45deg, rgba(101,255,253,1) 1%, rgba(34,150,238,1) 100%); background: linear-gradient(-45deg, rgba(101,255,253,1) 1%, rgba(34,150,238,1) 100%); padding: 75px 0">
+                                    <tr>
+                                        <td align="center" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif;">
+                                            <h3 style="font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: white; padding: 0 0 35 0; font-weight: 300; text-transform: capitalize; font-size: 24px; margin: 0;" align="center">
+                                                Interested in our App?
+                                            </h3>
+                                            <p style="font-style: italic; font-size: 14px; margin: 0; line-height: 1.5; padding: 0 0 50px; max-width: 400px; color: white;">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto alias minus perferendis cum velit hic itaque excepturi tenetur molestiae provident.
+                                            </p>
+                                            <a href="#" style="border-radius: 2px; border: 2px solid white; padding: 5px 10px; text-decoration: none; color: white; text-transform: uppercase; font-size: 12px; font-weight: 600;">
+                                                request a quote
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    <!-- Start of footer row -->
+                    <tr>
+                        <td>
+                            <table class="footer-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 0 15px; background: white; padding: 25px 0 75px;">
+                                <tr>
+                                    <td align="center">
+                                        <h2 style="font-weight: 700; font-family: 'Open Sans', Helvetica, Arial, sans-serif; text-transform: uppercase; color: #1b1b1b; font-size: 28px;">Hero</h2>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table class="icon-table" width="250px" align="center" cellspacing="0" cellpadding="0" border="0" style="">
+                                            <tr>
+                                                <td align="center">
+                                                    <a href="http://www.twitter.com/">
+                                                        <img src="/images/twitter_icon.png" alt="twitter icon">
+                                                    </a>
+                                                </td>
+                                                <td align="center">
+                                                    <a href="http://www.facebook.com/">
+                                                        <img src="/images/facebook_icon.png" alt="twitter icon">
+                                                    </a>
+                                                </td>
+                                                <td align="center">
+                                                    <a href="http://www.google.com">
+                                                        <img src="/images/google_icon.png" alt="twitter icon">
+                                                    </a>
+                                                </td>
+                                                <td align="center">
+                                                    <a href="http://www.pinterest.com">
+                                                        <img src="/images/pinterest_icon.png" alt="twitter icon">
+                                                    </a>
+                                                </td>
+                                                <td align="center">
+                                                    <a href="http://www.linkedin.com">
+                                                        <img src="/images/linkedin_icon.png" alt="twitter icon">
+                                                    </a>
+                                                </td>
+                                                <td align="center">
+                                                    <a href="http://www.youtube.com">
+                                                        <img src="/images/youtube_icon.png" alt="twitter icon">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <p style="padding: 20px 0; font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #b4b4b4; font-weight: 400; line-height: 1.8; font-size: 10px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni necessitatibus laudantium repudiandae a praesentium eligendi? <a href="#" style="color: #2792ec">Unsubscribe</a></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- End of footer row -->
+                </table>
+                <!-- End of container -->
+            </td>
+        </tr>
+    </table>
+    <!-- End of HTML email -->
+</body>
+</html>
